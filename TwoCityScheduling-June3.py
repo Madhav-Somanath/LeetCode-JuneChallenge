@@ -13,3 +13,5 @@ def twoCitySchedCost(costs: List[List[int]]) -> int:
     A = sum([cost[0] for cost in costs[:len(costs) // 2]])
     B = sum([cost[1] for cost in costs[len(costs) // 2:]])
     return A + B
+
+# here a greedy approach is considered 
