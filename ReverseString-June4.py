@@ -21,4 +21,4 @@ def reverseString(s: List[str]) -> None:
     for i in range(len(s)//2):
         s[i], s[len(s)-i-1] = s[len(s)-i-1], s[i]
         
-# Simple and elegant solution.
+# Simple and elegant solution, simply using reverse() calls in a recursion stack which means its not O(1).
